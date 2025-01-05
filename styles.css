@@ -1,0 +1,16 @@
+.header{
+    background-color: pink;
+    margin: 20px;
+    padding: 20px;
+    width: auto;
+    color: rgb(167, 58, 76);
+    text-align: center;
+}
+a{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.link{
+    text-decoration: none;
+    color: rgb(167, 58, 76);
+}
