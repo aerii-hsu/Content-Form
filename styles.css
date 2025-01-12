@@ -1,10 +1,16 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
 .header{
     background-color: pink;
     margin: 20px;
     padding: 20px;
-    width: auto;
+    width: 100%;
     color: rgb(167, 58, 76);
     text-align: center;
+    border-radius: 8px;
 }
 a{
     padding-left: 8px;
@@ -13,4 +19,44 @@ a{
 .link{
     text-decoration: none;
     color: rgb(167, 58, 76);
+}
+.contact{
+    background-color: rgb(210, 247, 177);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+}
+.label{
+    display: block;
+}
+.name{
+    width: 80%;
+    /* height: 20px; */
+}
+.email{
+    width: 80%;
+    /* height: 20px; */
+}
+.messages{
+    width: 80%;
+    /* height: 50px; */
+}
+.button{
+    background-color: rgb(226, 198, 236);
+    border: none;
+    color: rgb(126, 4, 137);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+.h4{
+    color: rgba(174, 173, 173, 0.559);
+    text-align: center;
 }
